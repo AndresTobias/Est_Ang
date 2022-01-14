@@ -18,7 +18,7 @@
                             </div>
                             <div class="list-info">
                                 <div>
-                                    <h3>un trabajo</h3>
+                                    <h3>{{educacionlista.educacion[0].titulo}}</h3>
                                     <p>lugar de trabajo1- <samp>tipo de jornada</samp> </p>
                                     <h4>inicio trabajo1- fin trabajo1-duracion trabajo1-</h4>
                                     <h4>lugar, pais</h4>
@@ -48,7 +48,7 @@
         </div>
         <div>
             <ul class="items-list">
-                <li>
+                <li *ngFor="let estudioX of educacionlista.educacion">
                     <div class="data-container">
                         <a href="#">
                             <div class="logo-image-container">
@@ -56,11 +56,11 @@
                             </div>
                             <div class="list-info">
                                 <div>
-                                    <h3>lugar de estudio 1</h3>
+                                    <h3>{{educacionlista.educacion[estudioX].titulo}}</h3>
                                     <p>titulo de lugar de estudio 1</p>
                                     <p><time>año de egresado estudio 1 </time> - <time>año de egresado estudio 1
                                         </time></p>
-                                </div>
+                                </div>                  
                             </div>
                         </a>
                     </div>
@@ -72,6 +72,7 @@
                         </div>
                     </div>
                 </li>
+                <!--
                 <li>
                     <div class="data-container">
                         <a href="#">
@@ -121,6 +122,7 @@
                         </div>
                     </div>
                 </li>
+                -->
             </ul>
         </div>
     </div>

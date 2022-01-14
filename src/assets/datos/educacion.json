@@ -1,0 +1,31 @@
+{"educacion":[{
+			"intitucion": "Avellaneda",
+			"titulo": "Tecnico en Electronica",
+			"logo": "",
+			"careera": "Secundaria",
+			"duracion": 6,
+			"ingreso": "2000",
+			"egreso": "2006"
+		},
+		
+		{
+			"intitucion": "Avellaneda",
+			"titulo": "Tecnico 2",
+			"logo": "",
+			"careera": "Secundaria",
+			"duracion": 6,
+			"ingreso": "2000",
+			"egreso": "2006"
+		},
+		
+		{
+			"intitucion": "Avellaneda",
+			"titulo": "Tecnico 3",
+			"logo": "",
+			"careera": "Secundaria",
+			"duracion": 6,
+			"ingreso": "2000",
+			"egreso": "2006"
+		}]
+	
+}

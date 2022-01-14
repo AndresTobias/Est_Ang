@@ -1,11 +1,12 @@
-{
-			"NombreCompleto": "Andrés Tobías Bonomo",
-			"Nacimiento": "21/4/1974",
-			"Profecion": "Tecnico",
-			"email": "andres74ar@gmail.com",
-			"ImagenDeFondo": "",
-			"Foto": "",
-			"LugarDeTrabajo": "Autonomo",
-			"Localidad": "Santa Fe - La Capial (Argentina)"
+{"DatosPersonales":
+	{
+	"NombreCompleto": "Andrés Tobías Bonomo",
+	"Nacimiento": "21/4/1974",
+	"Profecion": "Tecnico",
+	"email": "andres74ar@gmail.com",
+	"ImagenDeFondo": "./assets/fondo.png",
+	"Foto": "./assets/cara.png",
+	"LugarDeTrabajo": "Autonomo",
+	"Localidad": "Santa Fe - La Capial (Argentina)"
+	}
 }
-

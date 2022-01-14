@@ -8,7 +8,6 @@ import { Observable } from 'rxjs';
 export class DatosService {
 
   constructor(private http:HttpClient) { }
-  obtenerDatos():Observable<any>{
-return this.http.get('./assets/datos/AcercaDe.json'); 
- }
+  obtenerDatos():Observable<any>{return this.http.get('./assets/datos/AcercaDe.json');}
+  obtenerDatosEducacion():Observable<any>{return this.http.get('./assets/datos/educacion.json');}
 }

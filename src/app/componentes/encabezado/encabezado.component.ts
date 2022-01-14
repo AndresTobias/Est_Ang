@@ -11,7 +11,8 @@ miPorfolio:any;
   constructor(private datosporfolio:DatosService) { }
 
   ngOnInit(): void {
-    this.datosporfolio.obtenerDatos().subscribe(data =>{console.log(data);this.miPorfolio=data;});
+    this.datosporfolio.obtenerDatos().subscribe(data =>{
+      console.log(data);this.miPorfolio=data;});
   }
 
 }

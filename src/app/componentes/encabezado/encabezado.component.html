@@ -1,10 +1,10 @@
 <div class="mat-card" id="first-card">
     <div id="profile-background">
-        <img src="./assets/fondo.png">
+        <img [src]="miPorfolio.DatosPersonales.ImagenDeFondo">
     </div>
     <div id="info" style="padding: 16px">
         <div id="info-img">
-            <img class="profile-image" src="./assets/cara.png">
+            <img class="profile-image" [src]="miPorfolio.DatosPersonales.Foto">
             <div class="btn-edit">
                 <a href="#" class="btn-right">
                     <i class="fa fa-pen"></i>
@@ -13,11 +13,11 @@
         </div>
         <div id="info-data">
             <div>
-                <h1>{{miPorfolio.NombreCompleto}}</h1>
+                <h1>{{miPorfolio.DatosPersonales.NombreCompleto}}</h1>
                 <div id="info-company">INFORMACION DEL TIPO</div>
                 <div id="info-contact">
-                    <span>LUGAR X DEL TIPO</span>
-                    <span><a href="#">INFORMACION DEL TIPO</a></span>
+                    <span>Localidad: {{miPorfolio.DatosPersonales.Localidad}}</span>
+                    <span><a href="#"> {{miPorfolio.DatosPersonales.email}}</a></span>
                 </div>
             </div>
             <ul id="info-details">
