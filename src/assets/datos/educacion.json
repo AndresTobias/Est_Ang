@@ -1,5 +1,5 @@
 {"educacion":[{
-			"intitucion": "Avellaneda",
+			"institucion": "Avellaneda",
 			"titulo": "Tecnico en Electronica",
 			"logo": "",
 			"careera": "Secundaria",
@@ -9,7 +9,7 @@
 		},
 		
 		{
-			"intitucion": "Avellaneda",
+			"institucion": "Avellaneda",
 			"titulo": "Tecnico 2",
 			"logo": "",
 			"careera": "Secundaria",
@@ -19,7 +19,7 @@
 		},
 		
 		{
-			"intitucion": "Avellaneda",
+			"institucion": "Avellaneda",
 			"titulo": "Tecnico 3",
 			"logo": "",
 			"careera": "Secundaria",
